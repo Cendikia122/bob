@@ -1,0 +1,66 @@
+body {
+  background-color: #8bc6ec;
+  background: linear-gradient(#8bc6ec 0%, #9599e2 40%, #8bc6ec 100%);
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 90px;
+}
+.profileImage {
+  width: 200px;
+}
+
+.profile h4 {
+  color: white;
+}
+
+.profile h4 {
+  color: white;
+}
+
+.biodata {
+  background: linear-gradient(#ffffff 0%, #ffffff 60%, #ffffff00 100%);
+  padding-bottom: 200px;
+}
+
+.card-img-top {
+  width: 60%;
+  border-radius: 10%;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 1.5em 0.5em 0.5em;
+  text-align: center;
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.btn-primary {
+  border-radius: 2em;
+  padding: 0.5em 1em;
+}
+
+.progress {
+  margin-bottom: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.card-title1 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.tugas {
+  background-color: white;
+  margin-bottom: 60px;
+}
