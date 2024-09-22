@@ -1,6 +1,6 @@
 body {
-  background-color: #8bc6ec;
-  background: linear-gradient(#8bc6ec 0%, #9599e2 40%, #8bc6ec 100%);
+  background-color: #C779D0;
+  background: linear-gradient(#C779D0 0%, #4BC0C8 40%, #C779D0 100%);
 }
 .profile {
   display: flex;
@@ -24,6 +24,11 @@ body {
 .biodata {
   background: linear-gradient(#ffffff 0%, #ffffff 60%, #ffffff00 100%);
   padding-bottom: 200px;
+  padding-top: 50px;
+}
+
+.row{
+  padding: 0px 60px;
 }
 
 .card-img-top {
@@ -61,6 +66,15 @@ body {
 }
 
 .tugas {
-  background-color: white;
-  margin-bottom: 60px;
+  background: linear-gradient(#ffffff 0%, #ffffff 100%);
+  padding-bottom: 100px;
+}
+
+.footer{
+  padding-bottom: 0;
+}
+
+.watermark{
+  padding-top: 10px;
+  text-align: center;
 }
