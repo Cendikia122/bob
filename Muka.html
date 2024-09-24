@@ -5,6 +5,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- AOS Start -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- AOS End -->
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link rel="stylesheet" href="Kulit.css" />
@@ -45,7 +48,7 @@
     <section>
       <div class="container">
         <div class="profile">
-          <img class="rounded-circle float-end profileImage" src="foto/photo.jpeg" alt="Cendikia Prananta Ardian" />
+          <img class="rounded-circle float-end profileImage" src="foto/photo.jpeg" alt="Cendikia Prananta Ardian" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" />
           <h2>Cendikia Prananta Ardian</h2>
           <h4>μαθητής</h4>
         </div>
@@ -63,10 +66,10 @@
 
     <!---->
     <section id="biodata" class="biodata">
-      <h1 class="text-center">BIODATA</h1>
+      <h1 class="text-center" data-aos="fade-up" data-aos-duration="750">BIODATA</h1>
       <section class="container text-center">
         <div class="row">
-          <div class="col-sm">
+          <div class="col-sm" data-aos="fade-up-right" data-aos-duration="800">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam commodi nostrum aspernatur, ut consequuntur, provident, nemo repudiandae recusandae iure ipsam possimus? In veritatis reiciendis sunt fuga architecto, culpa modi
             eveniet?
           </div>
@@ -95,7 +98,9 @@
               </div>
             </div>
           </div>
-          <div class="col-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque mollitia, ad dignissimos libero nisi cum porro sit veniam beatae nihil harum illo voluptas minima eius? Amet quasi rerum voluptate velit.</div>
+          <div class="col-sm" data-aos="fade-up-left" data-aos-duration="800">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque mollitia, ad dignissimos libero nisi cum porro sit veniam beatae nihil harum illo voluptas minima eius? Amet quasi rerum voluptate velit.
+          </div>
         </div>
       </section>
     </section>
@@ -104,8 +109,8 @@
         <h1 class="mx-auto" style="color: white">ACHIEVEMENT</h1>
         <div class="container">
           <div class="row">
-            <div class="col-sm">
-              <div class="card mx auto" style="width: 17rem">
+            <div class="col-sm kuasa">
+              <div class="card mx auto" style="width: 17rem" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
                 <img src="foto/laravel.png" class="card-img-top" alt="Website" />
                 <div class="card-body">
                   <h5 class="card-title1">Front-End Developer</h5>
@@ -117,8 +122,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm">
-              <div class="card mx-auto" style="width: 17rem">
+            <div class="col-sm kuasa">
+              <div class="card mx-auto" style="width: 17rem" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
                 <img src="foto/Basketball.png" class="card-img-top" alt="Website" />
                 <div class="card-body">
                   <h5 class="card-title">Basketball</h5>
@@ -130,8 +135,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm">
-              <div class="card mx-auto" style="width: 17rem">
+            <div class="col-sm kuasa">
+              <div class="card mx-auto" style="width: 17rem" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
                 <img src="foto/Guitar.png" class="card-img-top" alt="Gitar" />
                 <div class="card-body">
                   <h5 class="card-title">Musik</h5>
@@ -193,6 +198,7 @@
         </div>
       </section>
     </section>
+
     <footer id="contact" class="bg-dark text-white pt-1 pb-5">
       <div class="container text-center text-md-left">
         <div class="row text-center text-md-left">
@@ -331,6 +337,10 @@
     </footer>
     <!---->
     <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
