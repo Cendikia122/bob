@@ -22,33 +22,25 @@
   </head>
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Bob</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#biodata">Biodata</a>
-            </li>
+    <nav class="navbar navbar-dark navbar-expand-md trn">
+      <div class="container-fluid justify-content-center mx-auto">
+        <a class="navbar-brand" href="#profile">Brand</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div id="navcol-1" class="collapse navbar-collapse flex-grow-0">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item"><a class="nav-link" href="#biodata">Biodata</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Achievement</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">My Gallery</a></li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
+
     <!--End Navbar-->
     <section>
       <div class="container">
         <div class="profile">
-          <img class="rounded-circle float-end profileImage" src="foto/photo.jpeg" alt="Cendikia Prananta Ardian" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" />
+          <img class="rounded-circle float-end profileImage border border-3" src="foto/photo.jpeg" alt="Cendikia Prananta Ardian" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" />
           <h2>Cendikia Prananta Ardian</h2>
           <h4>μαθητής</h4>
         </div>
@@ -66,40 +58,123 @@
 
     <!---->
     <section id="biodata" class="biodata">
-      <h1 class="text-center" data-aos="fade-up" data-aos-duration="750">BIODATA</h1>
+      <h1 class="text-center gap-3" data-aos="fade-up" data-aos-duration="750">Education</h1>
       <section class="container text-center">
-        <div class="row">
-          <div class="col-sm" data-aos="fade-up-right" data-aos-duration="800">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam commodi nostrum aspernatur, ut consequuntur, provident, nemo repudiandae recusandae iure ipsam possimus? In veritatis reiciendis sunt fuga architecto, culpa modi
-            eveniet?
-          </div>
-          <div class="col">
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Pendidikan SD</button>
+        <div class="content">
+          <div class="container text-center">
+            <div class="row">
+              <div data-aos="fade-up" data-aos-duration="800" class="col-sm-4 mb-2">
+                Halo! Saya Cendikia Prananta Ardian. Saya seorang yang memiliki semangat besar dalam berbagai bidang keahlian. Dalam dunia digital, saya ahli dalam membuat website dan programming, selalu mencari cara baru untuk
+                mengembangkan dan mengoptimalkan platform online. Selain itu, saya juga mencintai berbagai aktivitas fisik seperti berenang dan bermain basket, yang tidak hanya menjaga kesehatan saya tetapi juga memberi saya kesempatan
+                untuk belajar tentang kerja tim dan strategi. Musik juga adalah bagian besar dari hidup saya; saya bermain gitar dan piano/keyboard, mengekspresikan diri melalui melodi dan harmonisasi.
+              </div>
+              <div data-aos="fade-up" data-aos-duration="800" class="col-sm-4 mb-2">
+                <div class="education">
+                  <!-- Button trigger modal -->
+                  <p class="startEnd">Started on Jul 2016</p>
+                  <button type="button" class="btn btn-danger itemEdu" data-bs-toggle="modal" data-bs-target="#exampleModal1">SDN Papandayan Kota Bogor</button>
 
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Achievement</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Juara 3 Pencak Silat Botani Square Cup VI 2018
+                          <hr />
+                          Juara 1 Pencak Silat Bogor Mahakarya Pajajaran 1 2018
+                          <hr />
+                          Juara 2 Bogor Silat Championship Seri 2
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="modal-body">
-                    Juara 3 Pencak Silat Botani Square Cup VI 2018<br />
-                    Juara 1 Pencak Silat Bogor Mahakarya Pajajaran 1 2018<br />
-                    Juara 2 Bogor Silat Championship Seri 2<br />
+                  <p class="startEnd">Finished on Jun 2022</p>
+                  <i class="fas fa-arrow-circle-down itemEdu"></i>
+                  <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+                  <p class="startEnd">Started on Jul 2022</p>
+                  <button type="button" class="btn btn-danger itemEdu" data-bs-toggle="modal" data-bs-target="#exampleModal2">SMPN 11 Kota Bogor</button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Achievement</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">champion in the class</div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                  <p class="startEnd">Finished on Jun 2025</p>
+                  <i class="fas fa-arrow-circle-down itemEdu"></i>
+                  <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+                  <p class="startEnd">Started on Jul 2025</p>
+                  <button type="button" class="btn btn-danger itemEdu" data-bs-toggle="modal" data-bs-target="#exampleModal3">SMKS Wikrama</button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Achievement</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          1. 8th place in the Bekasi district web technology competition. <br />
+                          2. 1st place in the Bekasi district scientific work competition. <br />
+                          3. Won a silver medal at the National Science Olympiad in Physics. <br />
+                          4. Won a silver medal at the National Science Olympiad in Chemistry. <br />
+                          5. Won a bronze medal at the National Science Olympiad in Biology. <br />
+                          6. Microsoft office webinar resource persons. <br />
+                          7. Head of programming club SMKN 2 West Cikarang.
+                          <br />
+                          8. Champion class
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="startEnd">Finished on Jun 2028</p>
+                  <i class="fas fa-arrow-circle-down itemEdu"></i>
+                  <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+                  <p class="startEnd">Started on</p>
+                  <button type="button" class="btn btn-danger itemEdu" data-bs-toggle="modal" data-bs-target="#exampleModal4">University (Coming Soon)</button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Achievement</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">Not yet</div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
+              <div data-aos="fade-up" data-aos-duration="800" class="col-sm-4">
+                Sebagai pecinta ilmu, saya selalu tertarik dengan matematika, menemukan keindahan dalam angka dan logika. Di waktu senggang, saya menikmati membaca buku, karena melalui buku saya bisa menjelajahi dunia baru dan memperluas
+                wawasan. Senang bertemu dengan Anda, dan saya berharap kita bisa saling berbagi dan belajar lebih banyak lagi di dunia yang terus berkembang ini!
+              </div>
             </div>
-          </div>
-          <div class="col-sm" data-aos="fade-up-left" data-aos-duration="800">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque mollitia, ad dignissimos libero nisi cum porro sit veniam beatae nihil harum illo voluptas minima eius? Amet quasi rerum voluptate velit.
           </div>
         </div>
       </section>
@@ -161,36 +236,36 @@
     </svg>
     <section id="karya" class="tugas text-center">
       <section class="container">
-        <h1>Hasil Karya Tugas</h1>
+        <h1>My Gallery</h1>
         <div class="container">
-          <div class="row">
+          <div class="row alignt-items-center">
             <div class="col">
               <div class="card mx-auto" style="width: 18rem">
+                <img src="foto/gitar.jpg" class="card-img-top" alt="Latihan perdana gitar" />
                 <div class="card-body">
-                  <h5 class="card-title">Cerpen 1</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Tugas Agama "Cerpen"</h6>
-                  <p class="card-text">Sebuah Cerpen yang menceritakan seorang anak tentang Tata Krama, Rasa malu dan Sopan Santun</p>
-                  <a class="btn btn-primary" href="tugas.html" role="button" style="border-bottom-width: 10px">Download</a>
+                  <h5 class="card-title">Pertama kali saya belajar gitar</h5>
+
+                  <a href="https://www.instagram.com/p/Co1WfMpPbe-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" class="btn btn-primary">Lihat disini!</a>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card mx-auto" style="width: 18rem">
+                <img src="foto/konser.jpg" class="card-img-top" alt="Konser Kania (Soulmate)" />
                 <div class="card-body">
-                  <h5 class="card-title">Cerpen 1</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Tugas Agama "Cerpen"</h6>
-                  <p class="card-text">Sebuah Cerpen yang menceritakan seorang anak tentang Tata Krama, Rasa malu dan Sopan Santun</p>
-                  <a class="btn btn-primary" href="tugas.html" role="button" style="border-bottom-width: 10px">Download</a>
+                  <h5 class="card-title">Konser pertama saya!</h5>
+
+                  <a href="https://www.instagram.com/p/C27nJGOpaeg/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" class="btn btn-primary">Lihat disini!</a>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card mx-auto" style="width: 18rem">
+                <img src="foto/ujian.jpg" class="card-img-top" alt="Ujian musik pertama saya!" />
                 <div class="card-body">
-                  <h5 class="card-title">Cerpen 1</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Tugas Agama "Cerpen"</h6>
-                  <p class="card-text">Sebuah Cerpen yang menceritakan seorang anak tentang Tata Krama, Rasa malu dan Sopan Santun</p>
-                  <a class="btn btn-primary" href="tugas.html" role="button" style="border-bottom-width: 10px">Download</a>
+                  <h5 class="card-title">Ujian musik pertama!</h5>
+
+                  <a href="https://www.instagram.com/p/C5I4K7uSuEf/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" class="btn btn-primary">Lihat disini!</a>
                 </div>
               </div>
             </div>
@@ -204,7 +279,7 @@
         <div class="row text-center text-md-left">
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <h5 class="text-uppercase mb-4 fw-bold text-warning">Cendikia</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore facere repudiandae</p>
+            <p>"Kita tidak pernah merasakan bahagia jika tidak merasakan sedih dan sengsara"</p>
           </div>
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h5 class="text-uppercase mb-4 fw-bold text-warning">Products</h5>
@@ -339,7 +414,10 @@
     <!-- Optional JavaScript; choose one of the two! -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        // ... your other initialisation options here ...
+        once: true,
+      });
     </script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

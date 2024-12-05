@@ -1,6 +1,6 @@
 body {
-  background-color: #C779D0;
-  background: linear-gradient(#C779D0 0%, #4BC0C8 40%, #C779D0 100%);
+  background-color: #c779d0;
+  background: linear-gradient(#c779d0 0%, #4bc0c8 40%, #c779d0 100%);
 }
 .profile {
   display: flex;
@@ -27,7 +27,7 @@ body {
   padding-top: 50px;
 }
 
-.row{
+.row {
   padding: 0px 60px;
 }
 
@@ -70,19 +70,19 @@ body {
   padding-bottom: 100px;
 }
 
-.footer{
+.footer {
   padding-bottom: 0;
 }
 
-.watermark{
+.watermark {
   padding-top: 10px;
   text-align: center;
 }
 
-.pugas{
+.pugas {
   width: 100%;
 }
 
-.kuasa{
+.kuasa {
   width: 100%;
 }
